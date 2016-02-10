@@ -1,0 +1,27 @@
+Mafia game
+
+Team: Mafia/Civilians
+
+Objective for each team:
+	1. Civilians: Sentence all the Mafia
+	2. Mafias: Kill civilians and outnumber them. (Reach the same number of players)
+
+Roles:
+	1. Mafia will have a separate window open, where they can decide on whom to kill during 	night. Also, each mafia can use a special bullet per game which can kill a player even if a 	doctor heals.
+	2. Each doctor can choose whom they want to heal per night, which will prevent the player 	from getting killed.
+	3. Police(as a group) can identify if a person is a mafia or not per night.
+
+Game 1 (Simple version)
+	1. Depending on the player size, number of Mafia and Civilians will vary.
+		5 ~ 6: 1 mafia): 1 doctor
+		6  ~ 10: 2 mafia): 1 doctor, 1 police
+	2. Game will require 5 ~ 10 players
+	3. Game will have two phases: Day/Night
+		During the day, players are allowed to chat to decide whom to kill
+			- Phase 1: address who has been killed or healed,
+			- Phase 2: players discuss
+			- Phase 3: players decide on whom to sentence
+			- Phase 4: Sentenced player can place an objection
+			-
+		During the night, players are not allowed to chat.
+			- Mafia can chat by themselves on a separate window
