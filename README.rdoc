@@ -6,19 +6,40 @@ Objective for each team:
 	1. Civilians: Sentence all the Mafia
 	2. Mafias: Kill civilians and outnumber them. (Reach the same number of players)
 
-Roles:
-	1. Mafia
-		- Have a separate window open, where they can decide on whom to kill during night.
-		- Each mafia can use a special bullet per game which can kill a player even if a doctor heals.
-	2. Doctor
-		- Each doctor can choose whom they want to heal per night, which will prevent the player from getting killed.
-	3. Police
-		- Police(as a group) can identify if a person is a mafia or not per night.
+Occupation:
+	* Mafia Team
+		1. Mafia
+			- Hitman: Have a separate window open, where they can decide on whom to kill during night.
+			- Special bullet: Each mafia can use a special bullet per game which can kill a player even if a doctor heals.
+		2. Spy
+			- Secret Meeting: Each night, spy can check on one person. If the person is mafia, the spy will be invited to mafia chat window and discuss
+			- Mask: A spy is on Mafia team, but will be regarded as a civilian from police check.
+			- Disguise: A spy can identify the occupation of the dead people
+	* Civilian Team
+		1. Doctor
+			- Heal: Each doctor can choose whom they want to heal per night, which will prevent the player from getting killed. This will not work if mafia used Special bullet.
+		2. Police
+			- Check: Police(as a group) can identify if a person is a mafia or not per night.
+		3. Shaman
+			- Ritual: Each night, shaman can identify one dead person's occupation (mafia/police/doctor only).
+		4. Congressperson
+			- Money Power: will not die from vote
+			- Authority: His vote will count as two
+		5. Detective
+			- Investigate: Each night, he can stalk a person. If the person dies, he can find out who killed the person. This will not work if mafia used Special bullet.
+			- One on one: If Detective and a mafia are the only one left, Civilian team wins.
+		6. Press
+			- Stalk: From second night, Press can pick on a person to see if the person is a spy or not.
+		7. Psycho
+			- Kill: Only once per game, psycho can absolutely kill a person during a night.
+		8. Lovers
+			- Initimate relation: Lovers are given a private chat
+
 
 Game 1 (Simple version)
 	1. Depending on the player size, number of Mafia and Civilians will vary.
-		5 ~ 6: 1 mafia): 1 doctor
-		6  ~ 10: 2 mafia): 1 doctor, 1 police
+		(5 ~ 6: 1 mafia): 1 doctor, 3 ~ 4 civillians
+		(7 ~ 10: 2 mafia): 1 doctor, 1 police, 3 ~ 6 civilians)
 	2. Game will require 5 ~ 10 players
 	3. Game will have two phases: Day/Night
 		During the day, players are allowed to chat to decide on whom to kill
@@ -32,5 +53,28 @@ Game 1 (Simple version)
 		During the night, players are not allowed to chat.
 			- Mafia can chat by themselves on a separate window and kill
 			- Police can check on one person to see if the person is a mafia or not
-			- Each doctor can heal one person
+			- Each doctor can heal one person. (doctor cannot heal itself)
+	4. At any point of the game, if number of Mafia outnumbers or equal to the number of Civilians, the game is terminated and shows the result.
+
+Game 2 (Advanced version)
+	1. Depending on the player size, number of Mafia and Civilians will vary.
+		(10: 2 mafia): 1 doctor, 1 police, 1 shaman, 5 civilians
+		(11: 2 mafia, 1 spy): 1 doctor, 1 police, 1 shaman, 1 press, 4 civilians
+		(12: 2 mafia, 1 spy): 2 doctor, 1 police, 1 congressperson, 1 press, 2 lovers, 2 civilians
+		(13 ~ 14: 3 mafia, 1 spy): 1 ~ 2 doctor, 1 police, 1 shaman, 1 congressperson, 1 detective, 1 press, 1 psycho, 2 lovers
+		(15 ~ 16: 3 mafia, 1 spy): 1 doctor, 1 police, 1 shaman, 1 congressperson, 1 detective, 1 press, 1 psycho, 2 lovers, 2 ~ 3 civilians
+	2. Game will require 8 ~ 16 players
+	3. Game will have two phases: Day/Night
+		During the day, players are allowed to chat to decide on whom to kill
+			- Phase 1: address who has been killed or healed during night
+			- Phase 2: players discuss
+			- Phase 3: players decide on whom to sentence(Votes are private)
+			- Phase 4: address who will be sentenced
+			- Phase 5: Sentenced player can place an objection
+			- Phase 6: players vote on whether to sentence the player or not
+			- Phase 7: player is killed (or not) and proceed to night.
+		During the night, players are not allowed to chat.
+			- Mafia can chat by themselves on a separate window and kill
+			- Police can check on one person to see if the person is a mafia or not
+			- Each doctor can heal one person. (doctor can heal itself)
 	4. At any point of the game, if number of Mafia outnumbers or equal to the number of Civilians, the game is terminated and shows the result.
